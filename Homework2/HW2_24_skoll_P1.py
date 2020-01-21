@@ -18,14 +18,12 @@ while True:
         a = np.exp(2*x)
         b = 14+x**2-x
         c = np.sqrt(b)
-        answer = str.format('{0:.4f}', (a/b))
+        answer = str.format('{0:.3f}', (a/b))
         break
     except (TypeError, NameError, SyntaxError):
         print("Error: Please enter a valid number, try again")
     except ZeroDivisionError:
         print("Error: Denominator equal to 0, try again")
-    except KeyboardInterrupt:
-        print("Error: Keyboard interrupt detected, try again")
 
 print("\nx = ", + x)
 print("Operation: (e^2x)/sqrt(14 + x^2 -x)")
