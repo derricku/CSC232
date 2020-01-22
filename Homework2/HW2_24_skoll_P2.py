@@ -17,7 +17,7 @@ g = 9.81
 print("\n=============================================")
 print("\t   MISSLE LAUNCH TRAJECTORY\n")
 
-# USER INPUT + ERR CHECK
+# USER INPUT & ERROR CHECK
 while code == 0:
     try:
         V = eval(input("Enter the initial velocity (m/s): "))
@@ -44,7 +44,10 @@ while code == 0:
 print("    TIME\tX POS\t   Y POS")
 print("   ======      =======    =======")
 A = np.deg2rad(A)  # Convert to rad for np
+
+# Final Velocity and Total Travel Time
 T_tot = (V*np.sin(A) + np.sqrt((V*np.sin(A))**2 + 2*g*H0))/g
+Vf = np.sqrt(((V*np.cos(A))**2) + ((V*np.sin(A) - g*T_tot)**2))
 
 f = open("tempwillberemoved.txt", "x+")  # Create a temp file to store table
 for T in np.arange(0, T_tot, .001):
@@ -57,17 +60,20 @@ for T in np.arange(0, T_tot, .001):
 
     f.write("T+ {0} secs\t{1} m\t {2} m\n".format(T_con, X_con, Y_con))
 
-f.close()  # Whole point was to just get rid of print buffer...
+# FILE WRAPUP & PRINTING
+f.close()
 print(open("tempwillberemoved.txt").read())
-f.close()    # I spent way too long on this....
-os.remove("tempwillberemoved.txt")  # Don't worry the file deletes after use :)
+f.close()
+os.remove("tempwillberemoved.txt")  # Delete temp file
 
+
+Vf = str.format('{0:.2f}', Vf)
+T_tot = str.format('{0:.2f}', T_tot)
+print("TOTAL FLIGHT TIME: ", T_tot, "seconds")
+print("FINAL VELOCITY MAGNITUDE: ", Vf, "m/s")
+print("=============================================\n")
 # Instead of simply printing out within a loop, pre-writing all of the data
-# to a temp file and then printing the whole file at once saves exponential
+# to a temp file and then printing the whole file at once saves large
 # amounts of time while allowing for realistic processing of much greater
 # precision! Well worth the struggle with the file creation (first time
 # using it)
-
-T_tot = str.format('{0:.2f}', T_tot)
-print("TOTAL FLIGHT TIME: ", T_tot, "seconds")
-print("=============================================\n")
