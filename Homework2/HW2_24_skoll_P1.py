@@ -20,10 +20,11 @@ while True:
         c = np.sqrt(b)
         answer = str.format('{0:.3f}', (a/b))
         break
-    except (TypeError, NameError, SyntaxError):
-        print("Error: Please enter a valid number, try again")
+
     except ZeroDivisionError:
         print("Error: Denominator equal to 0, try again")
+    except:
+        print("Error: Please enter a valid number, try again")
 
 print("\nx = ", + x)
 print("Operation: (e^2x)/sqrt(14 + x^2 -x)")

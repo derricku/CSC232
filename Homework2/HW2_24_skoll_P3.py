@@ -22,8 +22,8 @@ while True:
         if yourInput == 0:
             break
         i += 1
-    except (SyntaxError, NameError, TypeError):
-        print("Error: Invalid value, try again\n")
+    except:
+        print("Error: Invalid value, continue input\n")
 
 print("\nTotal: ", inputSum)
 print("=======================================\n")

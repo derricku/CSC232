@@ -37,7 +37,7 @@ while code == 0:
                     code = 1
 
     except (TypeError, SyntaxError, NameError):
-        print("Error: Invalid value, try again")
+        print("Error: Invalid value, try again\n")
         code = 0
 
 # TRAJECTORY CALCULATIONS
