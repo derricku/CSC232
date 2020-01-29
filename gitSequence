@@ -7,9 +7,5 @@ git status
 git commit -m "Message Here"
 git push -u origin HEAD:master
 
-RETRIEVE FILES:
-git diff
-git pull
-
 Full List of Basic Commands:
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
