@@ -21,8 +21,5 @@ while code == 0:
     except:
         print("Error: wrong value entered")
 
-for i in range(0, len(mylist)):
-    for ii in range(0, len(round(max(mylist)))):
-        w = 0
-    print(mylist[i])
+print(mylist)
 print("=============================================\n")
