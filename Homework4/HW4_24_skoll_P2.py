@@ -6,28 +6,17 @@ Author: Derrick Unger
 Date: 2/07/20
 CSC232 Winter 2020
 """
-import numpy as np
 
-L = [12, 14.5, 3.14159]
-
-# User Input
 while True:
     try:
-        userInput = input("\nInput a value to add to list: ")
-
-        if userInput.upper() == "EXIT":
-            print("\nExit detected, quitting...\n")
+        year = input("\nEnter year to judge if leap year or not: ")
+        if year == "END":
             break
-
-        term = eval(userInput)
-        L.append(term)
+        year = int(year)
+        if(year % 4 == 0 and year % 100 != 0 or year % 400 == 0):
+            print("The year is a leap year!")
+        else:
+            print("The year is NOT a leap year.")
 
     except:
         print("\nError: Invalid input, retry\n")
-
-L.sort()  # Ascending Order
-print(L)
-L.sort(reverse=True)  # Descending Order
-print(L)
-print("AVG: ", str.format('{0:.3f}', np.average(L)))  # Average
-print("STD DEV: ", str.format('{0:.3f}', np.std(L)))  # Average
