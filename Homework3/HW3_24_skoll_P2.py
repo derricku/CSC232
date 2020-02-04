@@ -13,13 +13,15 @@ print("\n=============================================")
 while code == 0:
     try:
         userInput = input("Enter a number or type 'EXIT' or 'exit' to stop: ")
-        if userInput == "EXIT" or userInput == "exit":
+        if userInput.upper() == "EXIT":
             print("No longer accepting inputs...")
             code = 1
         else:
-            mylist.append(eval(userInput))
+            eval(userInput)
+            mylist.append(str(userInput))
     except:
         print("Error: wrong value entered")
 
-print(mylist)
+for n in range(0, len(mylist)):
+    print(mylist[n])
 print("=============================================\n")
