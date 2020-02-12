@@ -20,7 +20,7 @@ while True:
             print("Seed too large. Must be < 2**32 - 1")
         else:
             np.random.seed(seed)
-            randValue = np.random.randint(low=-8, high=9, size=15)
+            randValue = np.random.randint(low=-8, high=9, size=18)
             break
 
     except:

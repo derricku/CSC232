@@ -3,7 +3,7 @@ Homework 5
 >Problem 9
 
 Author: Derrick Unger
-Date: 2/07/20
+Date: 2/14/20
 CSC232 Winter 2020
 """
 
@@ -20,7 +20,7 @@ plt.plot(a,b,c,d)
 plt.show()
 
 # centroid =  # Need this for generic solution?
-#this would replace 8 and -8 in translations
+# this would replace 8 and -8 in translations
 
 # Translation to Origin
 t1 = np.array(([1,0,-6],[0,1,-6],[0,0,1]))

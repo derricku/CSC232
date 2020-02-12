@@ -3,14 +3,14 @@ Homework 5
 >Problem 4
 
 Author: Derrick Unger
-Date: 2/07/20
+Date: 2/14/20
 CSC232 Winter 2020
 """
 import numpy as np
 
 while True:
     try:
-        print("\nInputs must be float or integers separated by , eg: 1,2 \n")
+        print("\nInputs must be float or integers separated by , i.e: 1,2 \n")
         lat1, long1 = input("\nInput lat and long of first point: ").split(",")
         lat2, long2 = input("Input lat and long of second point: ").split(",")
         array1 = np.linspace(eval(lat1), eval(lat2), 7)
@@ -19,7 +19,7 @@ while True:
         coords = np.column_stack((array1, array2))
 
         break
-    
+
     except:
         print("\nError: Invalid input, retry\n")
 
