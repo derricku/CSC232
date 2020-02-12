@@ -35,10 +35,10 @@ while True:
             if deg < -360 or deg > 360:
                 print("Angle must be between -360 and 360 degrees.")
                 err = 1/0
-            ang = eval(deg)*(np.pi)/180  # Convert to radians
+            angRot = eval(deg)*(np.pi)/180  # Convert to radians
             break
 
-    except ZeroDivisionError:
+    except:
         print("Error, try again...")
 
 
@@ -76,16 +76,28 @@ for i in range(0, len(poly) - 2):
                          + (area * centroid[1])) / (area_total + area)
     area_total += area
 # ===========================================================
-centroid = centroid_total
-print("Centroid: ", centroid)
+print("Centroid: ", centroid_total)
 
-# Translate Polygon to Origin
-t1 = np.array(([1, 0, -centroid[1]], [0, 1, -centroid[2]], [0, 0, 1]))
-t1Points = []  # Holds translated points
-for n in range(0, len(poly)-1):
-    tPoint = np.dot(t1, [poly[n], poly[n+1], 1])  # Added z axis for later rot
-    t1Points.append(tPoint)
-print(t1Points)
+# Initial Points
+A = np.array([1, 1, 1])
+B = np.array([1, 6, 1])
+C = np.array([6, 6, 1])
+D = np.array([6, 1, 1])
+
+a = np.array(A[1], A[2])
+b = np.array(B[1], B[2])
+c = np.array(C[1], C[2])
+d = np.array(D[1], D[2])
+
+# Translation to Origin
+t1 = np.array(([1, 0, -6], [0, 1, -6], [0, 0, 1]))
+t1A = np.dot(t1, A)
+t1B = np.dot(t1, B)
+t1C = np.dot(t1, C)
+t1D = np.dot(t1, D)
+
+
+ang = np.pi/4
 
 # Rotation about Z axis
 rot = np.array(([np.cos(ang), -1*np.sin(ang), 0],
