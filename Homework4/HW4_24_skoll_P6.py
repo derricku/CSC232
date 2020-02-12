@@ -6,7 +6,6 @@ Author: Derrick Unger
 Date: 2/07/20
 CSC232 Winter 2020
 """
-# PROBLEM WITH NEW NAMES NO OPTION!!
 
 # Recommend using getpass() to hide user input, however QtConsole in Spyder
 # does not support this funciton, for full credit I will not include.
@@ -118,6 +117,6 @@ while code == 0:
         else:
             print("That wasn't a valid option enter Y or N.")
 
-    except ZeroDivisionError:
+    except:
         print("\nError: Invalid input, retry\n")
 print("="*50)
