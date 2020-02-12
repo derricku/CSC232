@@ -96,7 +96,7 @@ while True:
             else:
                 print("Target Missed...")
 
-    except ZeroDivisionError:
+    except:
 
         print("\nError: Invalid input, retry\n")
         

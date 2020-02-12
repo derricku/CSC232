@@ -83,7 +83,7 @@ while True:
             print("\nEnter exit in the first input to quit... eg 'exit,,'")
 
 
-    except ZeroDivisionError:
+    except:
 
         print("\nError: Invalid input, retry\n")
         
