@@ -21,7 +21,7 @@ while True:
         ang = deg*(np.pi)/180  # Convert to radians
         break
 
-    except ZeroDivisionError:
+    except:
         print("Error, try again...")
 
 # Initial Points
@@ -54,7 +54,12 @@ t2B = np.dot(t2, rotB)
 t2C = np.dot(t2, rotC)
 t2D = np.dot(t2, rotD)
 
-print("A: ", t2A)
-print("B: ", t2B)
-print("C: ", t2C)
-print("D: ", t2D)
+print("Original A: ", A)
+print("Original B: ", B)
+print("Original C: ", C)
+print("Original D: ", D)
+
+print("Rotated A: ", t2A)
+print("Rotated B: ", t2B)
+print("Rotated C: ", t2C)
+print("Rotated D: ", t2D)
