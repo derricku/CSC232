@@ -25,7 +25,7 @@ while True:
         print("Error, try again...")
 
 # Initial Point
-A = np.array([1, 0, 1])
+A = np.array([3, 1, 2])
 
 # Rotation about Z axis
 rot = np.array(([np.cos(ang), -1*np.sin(ang), 0],

@@ -17,14 +17,14 @@ value = []
 while True:
     try:
         seed = input("\nInput random generator seed (int) or EXIT to stop: ")
-        
-         # Error and Exit Checks
+
+        # Error and Exit Checks
         if seed.upper() == "EXIT":
             print("Exit detected... quitting")
             break
-        
+
         seed = int(seed)  # Only valid string checked, now int
-        
+
         if seed < 0:
             print("Seed must be greater or equal to 0!")
 
@@ -38,8 +38,8 @@ while True:
             randValue = np.random.randint(1, 14, size=1000)
 
             code = 0
-            while code == 0: # Keep trying until valid card combo
-  
+            while code == 0:  # Keep trying until valid card combo
+
                 print("\n  CARD   VALUE")
                 for x in range(0, 5):
                     if randValue[x] == 1:
@@ -52,7 +52,7 @@ while True:
                         card.append("Q")
                     elif randValue[x] == 13:
                         card.append("K")
-                    
+
                     # Spacing
                     if len(str(card[x])) < 2:
                         space1 = "  "
@@ -62,16 +62,16 @@ while True:
                         space = "     "
                     else:
                         space = "    "
-        
+
                     print(space1, card[x], space, randValue[x])
                 print("   Sum = ", np.sum(randValue[0:5]))
-    
+
                 # Check for 5 Same Cards
                 iterator = 0
                 if str(randValue[0:5]).count(str(randValue[0])) == 5:
                     print("Impossible card combination, changing cards...")
                     iterator = iterator + 5  # Keeps trying new values
-                    for n in range(0,5):
+                    for n in range(0, 5):
                         randValue[n] = randValue[n + iterator]
                 else:
                     code = 1
