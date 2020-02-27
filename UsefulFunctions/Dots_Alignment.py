@@ -33,7 +33,7 @@ for x in L:
 a = 0
 b = 0
 for x in L1:
-    decimalPlace = x.find(".")
+    decimalPlace = str(x).find(".")
     if decimalPlace > a:
         a = decimalPlace
     if decimalPlace == -1:
@@ -42,7 +42,7 @@ for x in L1:
 c = 0
 
 for x in L1:
-    decimalPlace = x.find(".")
+    decimalPlace = str(x).find(".")
     if decimalPlace == -1:
         spaces = a - len(x)
     else:
