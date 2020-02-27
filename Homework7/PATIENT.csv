@@ -1,0 +1,121 @@
+PID,Name|Last,Name|First,Gender,DOB,BloodType,Insurance,FamilyDoctor_DID
+00313,Thomas,Chelsea,F,11/1/2013,B,Kaiser Permenente,013
+01081,Raymond,Stephanie,F,3/17/1980,A,Kaiser Permenente,127
+01244,Gaunt,Lindsey,F,8/20/1971,A,Aetna,201
+01790,Balberchak,Andrew,M,12/1/1956,O,Anthem,127
+04318,Gilbert,Jazz,M,2/21/1978,O,ObamaCare,244
+07081,Hill,Mackenzie,F,7/4/1990,O,Blue Cross,778
+07944,Johnston,Natasha,F,12/1/1956,O,ObamaCare,778
+09183,Macairan,Jan,F,11/5/1940,O,Kaiser Permenente,245
+10695,Nolan,Samuel,M,4/25/1997,O,Blue Cross,918
+11914,Cornelio,Antonio,M,10/11/2002,O,Anthem,119
+12480,Chan,Sam,F,3/31/1980,O,Kaiser Permenente,244
+13138,Tan,Ziyang,F,8/8/1995,O,HealthNet,145
+13470,Raunborg,Kristofer,M,12/1/1956,O,Kaiser Permenente,239
+14111,Samlik,Christian,F,9/21/1999,O,Aetna,145
+14804,Engdahl,Richard,M,2/21/1978,O,Anthem,918
+17221,Turlington,Roger,M,10/1/1930,A,ObamaCare,119
+17577,Hobson,Robert,F,11/18/1977,O,HealthNet,359
+17663,Chico,Juliet,F,5/19/1984,O,Blue Cross,119
+18547,Creighton,Nathan,M,5/30/2001,O,ObamaCare,189
+19605,Susa,Clifford,M,6/17/1989,O,Aetna,127
+19644,El-Koussa,Mounir,M,12/3/1989,O,ObamaCare,606
+20120,Johnson,Neil,M,3/18/1975,B,Kaiser Permenente,239
+20636,Fuentes,Oscar,M,4/10/1983,O,Aetna,145
+20727,Gordon,Stephen,M,2/26/1989,O,Blue Cross,244
+22300,Pineda,Christina,F,8/1/1930,O,Aetna,201
+22667,Nassar,Kareem,M,10/29/1973,O,Kaiser Permenente,389
+23494,Haley,William,M,8/19/1998,O,Anthem,606
+24930,Jerman,Jenna,F,9/21/1999,O,HealthNet,389
+25957,Knutson,Steven,M,9/26/1998,A,HealthNet,359
+26045,Deen,Muhammad,M,4/1/1986,A,Blue Cross,127
+26835,Chan,Casey,F,9/19/1970,AB,Blue Cross,127
+27332,Peterson,Ashley,F,8/23/2003,AB,Kaiser Permenente,606
+29097,Doyle,Alex,M,3/29/1988,O,Anthem,244
+29498,Loy,James,M,7/23/1976,B,ObamaCare,638
+31252,Lierly,Daniel,M,3/17/1980,B,Kaiser Permenente,389
+31628,Cayard,Danny,F,6/17/1989,O,Anthem,189
+33457,Bounchareune,Steven,M,5/30/2001,O,Anthem,381
+33516,Banker-Hix,Wyatt,M,12/20/1981,A,ObamaCare,389
+33920,Karzen,Dylan,M,2/15/1970,O,Blue Cross,127
+34821,Smith,Jeffrey,M,3/17/1980,B,Aetna,775
+36094,Karras,Cory,M,9/26/1998,O,HealthNet,389
+36347,Tran,Peter,M,11/23/1995,AB,Aetna,412
+38772,Dillashaw,Justin,M,8/8/1995,O,Kaiser Permenente,446
+39060,D'Amelio,Jeffrey,M,8/19/1998,O,Anthem,638
+39080,Mo,Michelle,F,8/8/1995,O,ObamaCare,446
+41355,Knaus,Ben,M,10/10/1994,O,Aetna,529
+42034,Mattern,Jared,M,12/18/1970,O,Aetna,446
+42340,Feeley,Matthew,M,8/21/1993,O,Kaiser Permenente,381
+43260,Luong,Kenny,M,7/19/2000,B,ObamaCare,471
+43324,Tran,Minh,F,6/17/1989,O,Kaiser Permenente,145
+44589,Tarevern,Hormoz,M,11/10/1990,O,Blue Cross,189
+44858,Nguyen,Thuyen,F,12/7/1965,O,ObamaCare,145
+44889,Schlesinger,Brian,M,11/23/1995,A,Kaiser Permenente,471
+46944,Miller,Gavin,F,2/29/1992,O,Blue Cross,478
+48850,Kirtland,David,M,11/10/1990,O,HealthNet,638
+48923,Daniel,Devin,M,9/21/1974,O,ObamaCare,478
+50507,Bloom,Matthew,M,9/19/1970,O,ObamaCare,145
+51324,Johnson,Amy,F,2/15/1970,O,HealthNet,775
+51453,Medina Castellanos,Mariela,F,9/21/1999,O,Anthem,201
+52029,Dallezotte,Anna,F,5/22/1982,O,Aetna,244
+52119,Cooke,Shelley,F,9/19/1970,O,Kaiser Permenente,775
+52136,Fierro,Saul,M,8/22/1993,O,Kaiser Permenente,244
+53884,Phan,Nam,F,12/18/1970,O,Kaiser Permenente,529
+55350,Nicoletti,Dominic,F,9/30/1988,O,Kaiser Permenente,244
+55550,Galloway,Kevin,M,9/19/1970,O,Anthem,446
+55562,Bassal,Patrick,M,12/1/1956,A,Aetna,389
+56481,Shelton,Kevin,M,2/15/1970,O,ObamaCare,529
+56589,Gasperi,Gary,M,2/29/2000,AB,Kaiser Permenente,201
+56995,Kaye,Christopher,M,10/10/2001,O,ObamaCare,412
+57286,Knisley,Tyler,M,9/21/1999,B,Anthem,471
+58175,Ochi,Michael,M,9/1/2001,O,Blue Cross,239
+58526,Rice,Laura,F,11/10/1990,O,Blue Cross,239
+58679,Brooks,Ashley,F,7/4/1990,B,HealthNet,412
+59694,Musashi,Curtis,M,9/21/1999,B,HealthNet,471
+59936,Parr,Myles,F,12/9/1966,O,Blue Cross,338
+60954,Swenson,Paige,F,11/23/1995,O,Kaiser Permenente,389
+62623,Noe,Spencer,M,9/21/1999,B,ObamaCare,338
+62783,Shields,Brett,M,3/18/1975,O,ObamaCare,501
+63115,Cowles,Tyler,M,7/9/2011,O,Blue Cross,719
+63621,Armenta,Ashley,F,2/15/1970,O,Kaiser Permenente,513
+64418,Rice,Brandon,M,5/30/2001,O,Aetna,429
+64813,Tageson,Mackenzie,F,5/30/2001,O,Kaiser Permenente,429
+65123,Cameron,Thomas,M,5/19/1984,O,Anthem,412
+65824,Winkelman,Karl,M,3/18/1975,B,Kaiser Permenente,338
+66462,Mensing,Ryan,M,9/30/1988,O,Blue Cross,446
+66654,Janke,Matthew,M,1/1/1970,O,Aetna,338
+67108,Garcia,Jacob,M,12/12/1979,AB,Aetna,501
+68072,Haskin,Ryan,M,8/19/1998,O,ObamaCare,429
+69515,Stevens,Bradley,M,11/23/1995,B,Kaiser Permenente,478
+69640,Resciniti,Vincent,M,3/12/1999,O,Kaiser Permenente,381
+71012,Rodrigues,Travis,M,9/19/1970,O,Kaiser Permenente,446
+71983,Lu,Henry,M,6/18/2002,A,Kaiser Permenente,478
+72290,Blakley,Kevin,M,3/17/1980,A,Blue Cross,412
+72719,Brown,Garrett,M,12/3/1983,O,Anthem,338
+73518,Howells,Trevor,M,2/21/1978,O,Aetna,359
+74286,Rahimi,Shaun,F,3/18/1975,O,Blue Cross,381
+75561,Sandell,Albert,M,7/29/1999,O,Kaiser Permenente,338
+76456,White,Conrad,M,2/29/2004,B,Aetna,513
+76721,Magadia,Ryan,M,11/3/1950,O,Aetna,513
+77082,Banel,Paul,M,3/17/1980,O,Anthem,501
+78036,Sloan,Mason,M,12/1/1956,O,Kaiser Permenente,529
+79202,Pearson,James,M,7/15/2006,A,Aetna,399
+80721,Levine,Ian,M,12/1/1956,O,Blue Cross,606
+81327,Imbelloni,Monica,F,4/9/1992,O,Aetna,359
+81613,Georges,Alexander,M,9/19/1970,O,Kaiser Permenente,606
+81626,Jorgensen,Eric,M,11/21/1958,AB,HealthNet,446
+81686,Baker,Sarah,F,3/18/1975,O,Blue Cross,513
+81847,Klonowski,Charlie,F,3/18/1975,O,Blue Cross,359
+84949,Cattarusa,Douglas,M,6/12/1996,O,Blue Cross,513
+85261,Jorczak,Robert,M,3/17/1980,O,HealthNet,471
+85642,Costello,Scott,M,7/7/2003,O,Blue Cross,471
+86657,Nee,Peter,M,10/11/1971,O,Aetna,501
+87730,Dal Porto,Robert,M,6/18/2002,O,Anthem,478
+91257,McDaniel,Travis,M,11/19/1956,A,HealthNet,524
+93645,Punia,Daksh,F,2/15/1970,O,Blue Cross,478
+94935,Farmer,Kevin,M,5/31/1975,O,Kaiser Permenente,381
+95571,Van'T Hul,Shaun,M,2/15/1970,B,Kaiser Permenente,524
+97607,Wright,Morgan,F,2/29/1992,A,Blue Cross,381
+97612,Park,John,M,10/31/1935,O,Anthem,501
+99441,Meyer,Jacob,M,12/20/1955,O,HealthNet,999

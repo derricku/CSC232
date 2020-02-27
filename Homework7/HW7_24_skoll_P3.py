@@ -7,42 +7,21 @@ CSC232 Winter 2020
 """
 
 import numpy as np
+a = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+count = 0
+print("Passwords: ")
+while count < 20:
+    while True:
+        passwrd = []
+        for y in range(0, 8):
+            passwrd.append(np.random.choice(a))
 
-
-np.set_printoptions(formatter={'float_kind': lambda value: format(value, '8.3f'),
-                               'int_kind': lambda value: format(value, '7d')})
-
-while True:
-    try:
-        tkts = int(input("\nHow many tickets do you want? "))
-
-        # Check Input Validity
-        if tkts < 1:
-            print("Must choose an int of 1 or more tickets... try again")
-
-        # Generate Values
+        # Check for Capitals, Lowers, and Numerics
+        if not (any(char.isupper() for char in passwrd)
+                and any(char.islower() for char in passwrd)
+                and any(char.isnumeric() for char in passwrd)):
+            pass
         else:
-            tkt = np.empty((0, 5), int)
-            for x in range(0, tkts):  # Number of tickets to generate
-                tktNums = np.array([])
-
-                # Add Values to ticket until all are unique
-                code = 0
-                while code == 0:
-                    randValue = np.random.randint(1, 51)  # Nums [1 to 50]
-                    tktNums = np.unique(np.append(tktNums, randValue))
-                    if len(tktNums) == 5:  # Do until we have 5 unique values
-                        code = 1
-
-                tkt = np.append(tkt, [tktNums], axis=0)  # Add to master list
+            count += 1
             break
-
-    except:
-        print("Error, invalid input, try again...")
-
-
-# Print out All Tickets
-print("\n\nNumber of tickets: ", tkts)
-for x in range(1, len(tkt)+1):
-    print("\nTicket " + str(x) + ":")
-    print(tkt[x-1])
+    print(str(count) + ". " + "".join(passwrd))
