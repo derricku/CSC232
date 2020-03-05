@@ -1,0 +1,51 @@
+PID,Name|Last,Name|First,Gender,DOB,BloodType,Insurance,FamilyDoctor_DID
+1990-07-04, 07081, Hill, Mackenzie, F, 778, O, Blue Cross
+1990-07-04, 58679, Brooks, Ashley, F, 412, B, HealthNet
+1990-11-10, 44589, Tarevern, Hormoz, M, 189, O, Blue Cross
+1990-11-10, 48850, Kirtland, David, M, 638, O, HealthNet
+1990-11-10, 58526, Rice, Laura, F, 239, O, Blue Cross
+1992-02-29, 46944, Miller, Gavin, F, 478, O, Blue Cross
+1992-02-29, 97607, Wright, Morgan, F, 381, A, Blue Cross
+1992-04-09, 81327, Imbelloni, Monica, F, 359, O, Aetna
+1993-08-21, 42340, Feeley, Matthew, M, 381, O, Kaiser Permenente
+1993-08-22, 52136, Fierro, Saul, M, 244, O, Kaiser Permenente
+1994-10-10, 41355, Knaus, Ben, M, 529, O, Aetna
+1995-08-08, 13138, Tan, Ziyang, F, 145, O, HealthNet
+1995-08-08, 38772, Dillashaw, Justin, M, 446, O, Kaiser Permenente
+1995-08-08, 39080, Mo, Michelle, F, 446, O, ObamaCare
+1995-11-23, 36347, Tran, Peter, M, 412, AB, Aetna
+1995-11-23, 44889, Schlesinger, Brian, M, 471, A, Kaiser Permenente
+1995-11-23, 60954, Swenson, Paige, F, 389, O, Kaiser Permenente
+1995-11-23, 69515, Stevens, Bradley, M, 478, B, Kaiser Permenente
+1996-06-12, 84949, Cattarusa, Douglas, M, 513, O, Blue Cross
+1997-04-25, 10695, Nolan, Samuel, M, 918, O, Blue Cross
+1998-08-19, 23494, Haley, William, M, 606, O, Anthem
+1998-08-19, 39060, D'Amelio, Jeffrey, M, 638, O, Anthem
+1998-08-19, 68072, Haskin, Ryan, M, 429, O, ObamaCare
+1998-09-26, 25957, Knutson, Steven, M, 359, A, HealthNet
+1998-09-26, 36094, Karras, Cory, M, 389, O, HealthNet
+1999-03-12, 69640, Resciniti, Vincent, M, 381, O, Kaiser Permenente
+1999-07-29, 75561, Sandell, Albert, M, 338, O, Kaiser Permenente
+1999-09-21, 14111, Samlik, Christian, F, 145, O, Aetna
+1999-09-21, 24930, Jerman, Jenna, F, 389, O, HealthNet
+1999-09-21, 51453, Medina Castellanos, Mariela, F, 201, O, Anthem
+1999-09-21, 57286, Knisley, Tyler, M, 471, B, Anthem
+1999-09-21, 59694, Musashi, Curtis, M, 471, B, HealthNet
+1999-09-21, 62623, Noe, Spencer, M, 338, B, ObamaCare
+2000-02-29, 56589, Gasperi, Gary, M, 201, AB, Kaiser Permenente
+2000-07-19, 43260, Luong, Kenny, M, 471, B, ObamaCare
+2001-05-30, 18547, Creighton, Nathan, M, 189, O, ObamaCare
+2001-05-30, 33457, Bounchareune, Steven, M, 381, O, Anthem
+2001-05-30, 64418, Rice, Brandon, M, 429, O, Aetna
+2001-05-30, 64813, Tageson, Mackenzie, F, 429, O, Kaiser Permenente
+2001-09-01, 58175, Ochi, Michael, M, 239, O, Blue Cross
+2001-10-10, 56995, Kaye, Christopher, M, 412, O, ObamaCare
+2002-06-18, 71983, Lu, Henry, M, 478, A, Kaiser Permenente
+2002-06-18, 87730, Dal Porto, Robert, M, 478, O, Anthem
+2002-10-11, 11914, Cornelio, Antonio, M, 119, O, Anthem
+2003-07-07, 85642, Costello, Scott, M, 471, O, Blue Cross
+2003-08-23, 27332, Peterson, Ashley, F, 606, AB, Kaiser Permenente
+2004-02-29, 76456, White, Conrad, M, 513, B, Aetna
+2006-07-15, 79202, Pearson, James, M, 399, A, Aetna
+2011-07-09, 63115, Cowles, Tyler, M, 719, O, Blue Cross
+2013-11-01, 00313, Thomas, Chelsea, F, 013, B, Kaiser Permenente

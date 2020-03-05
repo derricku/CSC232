@@ -44,7 +44,7 @@ for line in f:
     n += 1
 
 
-# Remove DOB Values
+# Remove DOB Values <= Input Date
 DOBremove = []
 for x in range(len(DOBorig)):
     if DOBorig[x][4] > date:
@@ -56,12 +56,15 @@ for x in range(len(DOBorig)):
 # Sort .csv
 DOBsort = DOBremove
 print(DOBsort)
-DOBsort.sort(key=lambda date: DOBsort[4])
+DOBsort.sort(key=lambda date: date[4])
 f.close()
 
 print(HEADER + "\n")
 f = open("sorted.txt", "w")
+header = header.split(',')
+sortHeader = header[]
 f.write(HEADER + "\n")
+
 for PID, lastname, firstname, gender, DOB, BloodType, Insurance, dID in DOBsort:
     orderedDOB = str(DOB) + ", " + PID + ", " + lastname + ", " + firstname + ", "\
         + gender + ", " + dID + ", " + BloodType + ", " + Insurance + "\n"
