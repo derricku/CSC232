@@ -31,7 +31,6 @@ for x in L:
 
 # Align Dots
 a = 0
-b = 0
 for x in L1:
     decimalPlace = str(x).find(".")
     if decimalPlace > a:
@@ -39,10 +38,10 @@ for x in L1:
     if decimalPlace == -1:
         if len(x) > a:
             a = len(x)
-c = 0
 
 for x in L1:
     decimalPlace = str(x).find(".")
+    print(decimalPlace)
     if decimalPlace == -1:
         spaces = a - len(x)
     else:

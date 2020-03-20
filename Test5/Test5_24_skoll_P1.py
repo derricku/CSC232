@@ -1,9 +1,9 @@
 """
-Homework 9
+Test 5
 >Problem 1
 
 Author: Derrick Unger
-Date: 3/14/20
+Date: 3/12/20
 CSC232 Winter 2020
 """
 
@@ -11,8 +11,6 @@ import numpy as np
 np.set_printoptions(formatter={'float_kind': lambda value: format(value, '8.3f'),
                                'int_kind': lambda value: format(value, '7d')})
 
-# Include for Reading in Text File
-"""
 # Read in Points Text File
 f = open("Test5-0304-P1-DataSet1.txt", "r")
 point = []
@@ -36,19 +34,15 @@ Bx, By, Bz = float(x[1]), float(y[1]), float(z[1])
 Cx, Cy, Cz = float(x[2]), float(y[2]), float(z[2])
 Ax1, Ay1, Az1 = float(x[3]), float(y[3]), float(z[3])
 Bx1, By1, Bz1 = float(x[4]), float(y[4]), float(z[4])
-"""
-Ax, Ay = 2, 5
-Bx, By = 5, 2.5
-Cx, Cy = 1.5, 2
 
-# Shoelace Area
-sArea1 = .5*abs((Bx*Ay)+(Cx*By)+(Ax*Cy)-(Ax*By)-(Bx*Cy)-(Cx*Ay))
+# Shoelace Area2
+sArea1 = .5*abs((Bx*Az)+(Cx*Bz)+(Ax*Cz)-(Ax*Bz)-(Bx*Cz)-(Cx*Az))
 print("\nInitital Area = ", sArea1)
 
 # Angle Between 3 Points
-B = np.array([Bx, By])
-A = np.array([Ax, Ay])
-X = np.array([Bx + 10, Ay])
+B = np.array([Bx, Bz])
+A = np.array([Ax, Az])
+X = np.array([Bx + 10, Az])
 
 AB = B - A
 AX = X - A
@@ -79,15 +73,12 @@ def JustDoIt(pointTarget, basepoint, ang):
 
 
 # Translate Points
-C1 = JustDoIt([Cx, Cy, 1], [Ax, Ay], angle)  # Clockwise? -Ang for counterclock
+C1 = JustDoIt([Cx, Cz, 1], [Ax, Az], angle)  # Clockwise? -Ang for counterclock
+print("C1 = ", C1)
 
 Cx1 = C1[0]  # Not sure what going on in the *update* part
 Cy1 = C1[1]
-Cy1, Cx1 = C1[0] + 10, 1 + 5 - C1[1]
-print("C1 = ", round(Cx1, 3), round(Cy1, 3))
-
-Ax1, Ay1 = 1, 12
-Bx1, By1 = 1, 15.90512
+# Cy1, Cx1 = C1[0] - 2 + 10, 1 + 5 - C1[1]
 
 # Shoelace Area2
 sArea2 = .5*abs((Bx1*Ay1)+(Cx1*By1)+(Ax1*Cy1)-(Ax1*By1)-(Bx1*Cy1)-(Cx1*Ay1))

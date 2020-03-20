@@ -23,8 +23,8 @@ infile = open("MiningCompany.csv", "r")
 csvRead = csv.reader(infile)
 
 for row in csvRead:
-    dataMiles.append([float(row[1])*mileLat, float(row[2]*mileLong)])
-    dataMeters.append([float(row[1])*meterLat, float(row[2]*meterLong)])
+    dataMiles.append([float(row[1])*mileLat, float(row[2])*mileLong])
+    dataMeters.append([float(row[1])*meterLat, float(row[2])*meterLong])
 
 def PolygonArea(corners):
     area = 0
@@ -34,4 +34,3 @@ def PolygonArea(corners):
         area -= float(corners[j][0])*float(corners[i][1])
     area = abs(area)/2
     return area
-        

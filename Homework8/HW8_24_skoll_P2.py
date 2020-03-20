@@ -31,7 +31,7 @@ n = 0  # Skip Column Headers
 for line in f:
     line = line.strip()
     if n == 0:
-        HEADER = line
+        header = line
     if n != 0:
         PID, lastname, firstname, gender, DOB,\
             BloodType, Insurance, dID = line.split(",")
@@ -59,11 +59,15 @@ print(DOBsort)
 DOBsort.sort(key=lambda date: date[4])
 f.close()
 
-print(HEADER + "\n")
+
 f = open("sorted.txt", "w")
-header = header.split(',')
-sortHeader = header[]
-f.write(HEADER + "\n")
+header = header.split(",")
+print(header)
+header.insert(0, header.pop(4))
+print(header)
+header = ", ".join(header)
+print(header + "\n")
+f.write(header + "\n")
 
 for PID, lastname, firstname, gender, DOB, BloodType, Insurance, dID in DOBsort:
     orderedDOB = str(DOB) + ", " + PID + ", " + lastname + ", " + firstname + ", "\
